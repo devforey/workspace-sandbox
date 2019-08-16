@@ -1,0 +1,9 @@
+{
+  "name": "testforey",
+  "version": "1.0.0",
+  "main": "dist/bundle.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "rollup -c"
+  }
+}

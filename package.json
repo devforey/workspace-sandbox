@@ -1,0 +1,12 @@
+{
+  "name": "workspace-sandbox",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "testforey": "cd ./testforey; yarn start;",
+    "appforey": "cd ./appforey; yarn start;",
+    "start": "yarn run testforey;yarn run appforey;"
+  },
+  "workspaces": [ "testforey" ]
+}

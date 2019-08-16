@@ -1,0 +1,13 @@
+{
+  "name": "appforey",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "testforey": "1.0.0"
+  },
+  "scripts": {
+    "prestart": "rollup -c",
+    "start": "node ./dist/bundle.js"
+  }
+}
